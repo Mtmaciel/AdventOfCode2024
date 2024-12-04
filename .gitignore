@@ -1,0 +1,95 @@
+# Compilados binários
+bin/
+obj/
+
+# Logs
+*.log
+logs/
+
+# Configurações do usuário
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios de dependências
+packages/
+!packages/*.config
+
+# Diretórios gerados pelo SDK
+*.vs/
+.vs/
+
+# Arquivos de saída do build
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de banco de dados locais
+*.mdf
+*.ldf
+
+# Arquivos de publicação
+publish/
+wwwroot/
+
+# Arquivos temporários
+*.swp
+*~
+
+# Configurações sensíveis
+secrets.json
+
+# Outros
+Thumbs.db
+*.class
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.pidb
+*.mdb
+*.opendb
+*.session
+*.crunch
+*.mono
+
+# Arquivos de cache de build
+**/ipch/
+*.aps
+*.ncb
+*.cache
+*.ilk
+*.obj
+*.pch
+*.idb
+*.pdb
+*.pbi
+*.bk1
+*.bk2
+
+# Arquivos de logs do sistema
+*.tlog
+*.log
+*.vspscc
+*.vssscc
+
+# Arquivos específicos do sistema operacional
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Rider
+.idea/
+*.sln.iml
