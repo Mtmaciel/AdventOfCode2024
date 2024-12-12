@@ -1,5 +1,12 @@
 namespace AdventOfCode.Day2;
 
-protected class ReportValidator{
+public class ReportValidator
+{
+    public ReportValidator(bool firstLevelErrorSafe)
+    {
+        FirstLevelErrorSafe = firstLevelErrorSafe;
+    }
+
+    private bool FirstLevelErrorSafe { get; set; }
     
 }
